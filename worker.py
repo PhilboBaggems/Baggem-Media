@@ -1,5 +1,5 @@
 from setup import startup
-from actions import search#, comment, gpt
+from actions import search #, comment, gpt
 
 driver = startup.initialize_chrome_webdriver()
 # email = startup.prompt_user_google_email_address()

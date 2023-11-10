@@ -9,7 +9,7 @@ def initialize_chrome_webdriver():
     chrome_options.add_argument('--user-data-dir=C:\\Users\\bbdnet2843\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 2')
     chrome_service = Service(chrome_webdriver_path)
     driver = webdriver.Chrome(options=chrome_options, service=chrome_service)
-    driver.implicitly_wait(30)
+    driver.implicitly_wait(10)
     return driver
 
 def prompt_user_google_email_address():
